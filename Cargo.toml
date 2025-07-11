@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "node",
+    "observer",
+    "common_lib"
+]
