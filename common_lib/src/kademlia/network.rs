@@ -1,6 +1,6 @@
 use std::io::{Read, Write};
 use std::net::TcpStream;
-use crate::protocol::Message;
+use crate::kademlia::protocol::Message;
 
 pub fn send_message(stream: &mut TcpStream, msg: &Message) -> std::io::Result<()> {
     let bytes = bincode::serialize(msg).unwrap();

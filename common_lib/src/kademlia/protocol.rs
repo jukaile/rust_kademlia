@@ -1,5 +1,5 @@
 use serde::{Serialize, Deserialize};
-use crate::kad_id::NodeId;
+use crate::kademlia::kad_id::NodeId;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub enum Message {

@@ -1,6 +1,6 @@
 use std::sync::Arc;
 
-use common_lib::kademlia::KademliaNode;
+use common_lib::kademlia::kademlia::KademliaNode;
 
 fn main() {
     let mut args = std::env::args().skip(1);

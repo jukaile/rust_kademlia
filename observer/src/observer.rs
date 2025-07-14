@@ -1,4 +1,4 @@
-use common_lib::kademlia::KademliaNode;
+use common_lib::kademlia::kademlia::KademliaNode;
 
 pub struct Observer {
     pub node: KademliaNode,

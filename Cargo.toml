@@ -2,5 +2,5 @@
 members = [
     "node",
     "observer",
-    "common_lib"
+    "common_lib",
 ]

@@ -1,5 +1,5 @@
-use crate::kad_id::NodeId;
-use crate::protocol::xor_distance;
+use crate::kademlia::kad_id::NodeId;
+use crate::kademlia::protocol::xor_distance;
 use std::collections::VecDeque;
 use std::time::Instant;
 
